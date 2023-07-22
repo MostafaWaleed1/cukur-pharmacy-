@@ -1,0 +1,51 @@
+@import url(all.css);
+
+
+header{
+  min-height: 100vh;
+  background:rgb(92, 91, 91) url(../images/packings-pills-capsules-medicines.jpg ) no-repeat top left/cover ;
+  background-blend-mode:multiply;
+ 
+}
+.head{
+  background:rgb(92, 91, 91) url(../images/fake-news-works-coming-out-megaphone.jpg ) no-repeat center/cover ;
+  background-blend-mode:multiply;
+}
+.pho{
+  width: 450px;
+}
+.sec1{
+  background: url(../images/photo_5812160241750620647_y.jpg) no-repeat center/cover fixed;
+}
+.sec2{
+  background:rgb(126, 124, 124) url(../images/photo_5812160241750620645_y.jpg) no-repeat center/cover fixed;
+  background-blend-mode:multiply;
+}
+.hov:hover{
+  opacity: 0.7;
+  cursor: pointer;
+}
+.hov2:hover{
+  background: greenyellow;
+  cursor: pointer;
+}
+.lon{
+  background: rgb(21, 54, 106);
+}
+.hov1:hover{
+  background: rgb(9, 18, 34);
+  cursor: pointer;
+}
+.hov3:hover{
+  background: rgb(21, 54, 106);
+  transition: 1s;
+  -webkit-transition: 1s;
+  -moz-transition: 1s;
+  -ms-transition: 1s;
+  -o-transition: 1s;
+} 
+/* login */
+/* .log{
+  min-height: 100vh;
+  background: url(../images/packings-pills-capsules-medicines.jpg)no-repeat top left/cover;
+} */
